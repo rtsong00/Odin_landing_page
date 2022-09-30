@@ -4,39 +4,7 @@ body {
     background-color: #1F2937;
     margin: 0;
     padding: 0;
-
-
 }
-
-.image {
-    background-color: #1F2937;
-    display: flex;
-    margin: 120px;
-    flex-direction: row;
-    text-decoration: none;
-}
-
-.image div {
-    background-color: #1F2937;
-    text-align: left;
-    margin: 0;
-    color: #f9faf8;
-    
-
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    
-    padding-right: 24px;
-
-}
-
-.container div {
-    flex: 1;
-
-}
-
 
 Header {
     background: #1F2937;
@@ -46,15 +14,6 @@ Header {
     align-items: center;
     justify-content: space-between;
     margin-top: 0px;
-  
-}
-
-main {
-    background-color: #f9faf8;
-
-}
-section {
-    background-color: #f9faf8;
 }
 
 h1 { 
@@ -70,8 +29,6 @@ h2 {
     padding-right: 150px;
     border: 0;
     margin: 0;
-
-
 }
 
 ul {
@@ -84,10 +41,47 @@ li {
     padding-right: 5px;
     
 }
+
 a {
     font-size: 18px;
     color: #f9faf8;
     text-decoration: none;
+}
+
+footer {
+    background-color: #1F2937;
+    display: block;
+    color: #f9faf8;
+    font-weight: lighter;
+    align-items: center;
+    text-align: center;
+    padding: 36px;
+}
+
+
+.image {
+    background-color: #1F2937;
+    display: flex;
+    margin: 120px;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.image div {
+    background-color: #1F2937;
+    text-align: left;
+    margin: 0;
+    color: #f9faf8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+}
+
+.container div {
+    flex: 1;
 }
 
 .quote {
@@ -98,7 +92,7 @@ a {
     color: #1F2937;
     margin: 0;
     padding: 0;
-     align-items: center;
+    align-items: center;
     justify-items: center;
     text-align: center;
     display: flex;
@@ -114,13 +108,11 @@ a {
     text-align: center;
     align-items: center;
     justify-items: center;
-
 }
 
 .container-quote div {
     flex: 1 0 auto;
     align-items: center;
-
 }
 
 .container-quotee {
@@ -129,12 +121,9 @@ a {
     font-weight: bold;
     align-items: flex-end;
     justify-items: right;
-   
-
 }
 
 .container-quotee div {
-   
     flex: 1 2 0;
 }
 
@@ -143,16 +132,6 @@ a {
     margin: 0;
     padding: 0;
     flex: 1;
-
-}
-
-.dark {
-    background-color: #1F2937;
-}
-
-#dark {
-    background-color: #1F2937;
-    
 }
 
 .white {
@@ -162,12 +141,6 @@ a {
     align-items: center;
     text-align: center;
     padding: 36px;
-}
-
-#center {
-    text-align: center;
-    text-justify: center
-;
 }
 
 
@@ -223,7 +196,7 @@ a {
     text-align: center;
 }
 
-footer {
-    background-color: #1F2937;
-
+#center {
+    text-align: center;
+    text-justify: center;
 }
