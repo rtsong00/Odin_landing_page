@@ -1,23 +1,45 @@
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'helvetica neue';
+    background-color: #1F2937;
+    margin: 0;
     padding: 0;
-    background: #1F2937;
+
+
+}
+
+.image {
+    background-color: #1F2937;
+    display: flex;
+    margin: 120px;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.image div {
+    background-color: #1F2937;
+    text-align: left;
+    margin: 0;
+    color: #f9faf8;
+    
+
+}
+.container {
     display: flex;
     flex-direction: column;
 
 }
 
-.image {
-    
-    flex-direction: row;
-}
-
-.image div {
+.container div {
+    flex: 1;
 
 }
+
+
 Header {
     background: #1F2937;
+    border: 0;
+    margin: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +48,11 @@ Header {
 }
 
 main {
+    background-color: #f9faf8;
 
+}
+section {
+    background-color: #f9faf8;
 }
 
 h1 { 
@@ -38,6 +64,11 @@ h2 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    width: 75%;
+    padding-right: 150px;
+    border: 0;
+    margin: 0;
+
 
 }
 
@@ -54,6 +85,7 @@ li {
 a {
     font-size: 18px;
     color: #f9faf8;
+    text-decoration: none;
 }
 
 .quote {
@@ -61,6 +93,9 @@ a {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .wert  {
@@ -72,17 +107,58 @@ a {
 
 }
 
+.dark {
+    background-color: #1F2937;
+}
 #dark {
     background-color: #1F2937;
     
 }
 
 .white {
+    display: flex;
+    flex-direction: column;
     background-color: #f9faf8;
     align-items: center;
+    text-align: center;
 }
 
 #center {
     text-align: center;
+    text-justify: center
+;
 }
 
+
+.box-one {
+    background-color: #3882f6;
+    padding: 10px 22px;
+    letter-spacing: 1.5px;
+    display: block;
+    width: 150px;
+    height: 3rem;
+    border-radius: 1rem;
+    margin: 5px;
+    border: 1px solid #3882f6;
+}
+
+.box-two {
+    border: 3px solid #3882f6;
+    border-radius: 1rem;
+    height: 150px;
+    width: 150px;
+    background-color: #f9faf8;
+    
+}
+
+.random {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+
+}
+
+.random div {
+    flex: 1 1 0;
+    margin: 25px;
+}
