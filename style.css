@@ -182,24 +182,28 @@ a {
     height: 150px;
     width: 150px;
     background-color: #f9faf8;
-    display: flex;
-    flex-direction: column;
-    
+   
 }
 
-.box-two div {
-    flex: 1;
+.random-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.random-box div {
+    flex: auto;
 }
 
 
 .random {
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 24px;
 
 }
 
 .random div {
-    flex: 1 1 0;
+    flex: auto;
     margin: 25px;
 }
