@@ -92,10 +92,44 @@ a {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+.container-quote {
+    display: block;
+    flex-direction: column;
+    height: Auto;
+    width: 700px;
+    padding : 24px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.container-quote div {
+    flex: 1 0 auto;
+    align-items: center;
+
+}
+
+.container-quotee {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: flex-end;
+    justify-items: right;
+   
+
+}
+
+.container-quotee div {
+   
+    flex: 1 2 0;
 }
 
 .wert  {
@@ -148,13 +182,20 @@ a {
     height: 150px;
     width: 150px;
     background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
     
 }
+
+.box-two div {
+    flex: 1;
+}
+
 
 .random {
     display: flex;
     flex-direction: row;
-    margin: 25px;
+    margin: 0;
 
 }
 
