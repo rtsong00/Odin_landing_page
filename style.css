@@ -27,6 +27,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    
+    padding-right: 24px;
 
 }
 
@@ -96,7 +98,11 @@ a {
     color: #1F2937;
     margin: 0;
     padding: 0;
+     align-items: center;
+    justify-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-quote {
@@ -134,7 +140,6 @@ a {
 
 .wert  {
     background-color: #f9faf8;
-    margin
     margin: 0;
     padding: 0;
     flex: 1;
@@ -144,6 +149,7 @@ a {
 .dark {
     background-color: #1F2937;
 }
+
 #dark {
     background-color: #1F2937;
     
@@ -155,6 +161,7 @@ a {
     background-color: #f9faf8;
     align-items: center;
     text-align: center;
+    padding: 36px;
 }
 
 #center {
@@ -185,25 +192,38 @@ a {
    
 }
 
-.random-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-.random-box div {
-    flex: auto;
-}
-
-
 .random {
     display: flex;
     flex-direction: row;
-    margin: 24px;
-
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .random div {
     flex: auto;
     margin: 25px;
+}
+
+.random-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    
+}
+.random-box div {
+    margin: 0;
+    flex: auto 1 0 0;
+}
+
+.call {
+    background-color: #f9faf8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #1F2937;
+
 }
