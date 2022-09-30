@@ -31,6 +31,15 @@ h2 {
     margin: 0;
 }
 
+h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-right: 150px;
+    border: 0;
+    margin: 0;
+}
+
+
 ul {
     list-style-type: none;
 }
@@ -165,6 +174,35 @@ footer {
    
 }
 
+.box-three {
+    background-color: #3882f6;
+    letter-spacing: 1.5px;
+    display: flex;
+    width: auto;
+    height: 3rem;
+    border-radius: 5px;
+    padding: 36px 22px;
+    margin: 36px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border: 1px solid #3882f6;
+
+}
+
+.box-four {
+    background-color: #3882f6;
+    padding: 10px 22px;
+    letter-spacing: 1.5px;
+    display: block;
+    aling text color-interpolation-filters: border: border: ;;
+    align-items: center;
+    width: 150px;
+    height: 3rem;
+    border-radius: 1rem;
+    margin: 5px;
+    border: 1px solid #f9faf8;
+    
+}
 .random {
     display: flex;
     flex-direction: row;
@@ -173,7 +211,7 @@ footer {
 }
 
 .random div {
-    flex: auto;
+    flex: 1 1 auto;
     margin: 25px;
 }
 
@@ -186,17 +224,46 @@ footer {
 }
 .random-box div {
     margin: 0;
-    flex: auto 1 0 0;
+    flex: 1 0 auot;
 }
 
 .call {
     background-color: #f9faf8;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+    
 }
 
-#center {
-    text-align: center;
-    text-justify: center;
+.call div{
+    flex: 2 1 auto;    
+}
+.container-call {
+    align-items: center;
+    margin: 0;
+    padding-left: 95px;
+    display: flex;
+    text-align: left;
+}
+
+.container-call div {
+    
+    flex: 1 ;
+}
+
+.call-signup {
+    display:flex;
+    align-items: center;
+}
+
+.container-action {
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    font-weight: lighter;
+}
+
+.container-action div {
+    flex: 1;
 }
